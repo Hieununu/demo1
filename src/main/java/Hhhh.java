@@ -278,7 +278,85 @@ public class Hhhh {
 //        System.out.println(Arrays.deepToString(mangDich));
 //    }
 
+
+    //    public static void main(String[] args) {
+//        int i;
+//        for (i = 0; i < 100; ++i) {
+//            System.out.println(i + " con cuu");
+//        }
+//        System.out.println("hoan thanh ");
+//    }
+
+//    public static void main(String[] args) {
+//        Double so , tong = 0.0;
+//        Scanner sc = new Scanner(System.in);
+//        while (true){
+//            System.out.println("nhap vao 1 so bat ky");
+//            so = sc.nextDouble();
+//            if(so<0.0){
+//                break;
+//            }
+//            tong += so;
+//        }
+//        System.out.println("tong cac so vua nhap la:" + tong);
+//    }
+
+//    public static void main(String[] args) {
+//        for(int i =1;i<=3;i++){
+//            System.out.println("Chuong "+ i);
+//            for (int j=1;j<=5;j++){
+//                System.out.println("Phan "+j);
+//                if(j == 4){
+//                    System.out.println("het");
+//                    break;
+//                }
+//            }
+//        }
+//        System.out.println("Ket thuc");
+//    }
+
+
+//    public static void main(String[] args) {
+//            vonglap1:
+//        for (int i = 1;i<6;i++){
+//            vonglap2:
+//            for(int j = 1 ; j<3;j++){
+//                System.out.println("i ="+i+"j="+j);
+//                if(i == 5){
+//                    break vonglap1;
+//                }
+//            }
+//        }
+//    }
+
+
+    public static void main(String[] args) {
+        System.out.print("can bac 2 cua 9 la" + Math.sqrt(9));
+    }
 }
+
+//class Den{
+//    private String denSang;
+//    public void batDen(){
+//        denSang = "Den dang sang";
+//    }
+//    public void tatDen(){
+//        denSang = " Den dang tat";
+//    }
+//    public void thongBao(){
+//        System.out.println("thong bao" + denSang);
+//    }
+//}
+//class TaoDoiTuongDen{
+//    public static void main(String[] args){
+//        Den den = new Den();
+//        den.batDen();
+//        den.thongBao();
+//        den.tatDen();
+//        den.thongBao();
+//    }
+//}
+
 
 
 
