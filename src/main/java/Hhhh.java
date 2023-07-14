@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 import java.util.Scanner;
-public class Hhhh {
+//public class Hhhh {
 //    public static void main(String[] args){
 //        System.out.println("hello");
 //    }
@@ -330,10 +330,10 @@ public class Hhhh {
 //    }
 
 
-    public static void main(String[] args) {
-        System.out.print("can bac 2 cua 9 la" + Math.sqrt(9));
-    }
-}
+//    public static void main(String[] args) {
+//        System.out.print("can bac 2 cua 9 la" + Math.sqrt(9));
+//    }
+//}
 
 //class Den{
 //    private String denSang;
@@ -356,6 +356,104 @@ public class Hhhh {
 //        den.thongBao();
 //    }
 //}
+
+
+public class Hhhh {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        String s;
+//        System.out.println("Nhập vào chuỗi: ");
+//        s = sc.nextLine();
+//        System.out.println("-------");
+//        System.out.println(s.length());
+//        int doDai = s.length();
+//        for(int i = 0; i< doDai;i++){
+//            System.out.println("Vị trí"+ i + "là" + s.charAt(i));
+//        }
+//        char[] arrayChar = new char[10];
+//        s.getChars( 2,4,arrayChar,0);
+//        for(int i = 0;i<arrayChar.length;i++){
+//            System.out.println("Giá trị của mảng tại" + i + " là" + arrayChar[i]);
+//        }
+//        byte[] arrayBytes = s.getBytes();
+////        for (byte b : arrayBytes){
+////            System.out.println(b);
+//    }
+
+
+
+//    public static void main(String[] args) {
+//
+//
+//        String s1 = "DinhKhacHieu";
+//        String s2 = "dinhkhachieu";
+//        String s3 = "DinhKhacHieu";
+//
+//        System.out.println("s1 equals s2 " + s1.equals(s2));
+//        System.out.println("s1 equals s3 " + s1.equals(s3));
+//
+//        System.out.println("s1 equalsIgnoreCase s2 " + s1.equalsIgnoreCase(s2));
+//        System.out.println("s1 equalsIgnoreCase s3 " + s1.equalsIgnoreCase(s3));
+//
+//        System.out.println("s1 compareTo s2 " + s1.compareTo(s2));
+//        System.out.println("s1 compareTo s3 " + s1.compareTo(s3));
+//
+//        System.out.println("s1 compareToIgnoreCase s3 " + s1.compareToIgnoreCase(s3));
+//        System.out.println("s1 compareToIgnoreCase s3 " + s1.compareToIgnoreCase(s3));
+//
+//        boolean check = s1.regionMatches(2, s2, 0, 4);
+//        System.out.println(check);
+//
+//        String sdt = "0779282348";
+//        System.out.println(sdt.startsWith("077"));
+//        System.out.println(sdt.startsWith("037"));
+//
+//        String tenFile1 = "Javacoban.JPG";
+//        String tenFile2 = "Javacoban.EXE";
+//        if (tenFile1.endsWith(".JPG")) {
+//            System.out.println("File 1 la file JPG ");
+//        } else if (tenFile1.endsWith(".EXE")) {
+//            System.out.println("File 1 la file EXE");
+//        }
+//        if (tenFile2.endsWith(".JPG")) {
+//            System.out.println("File 2 la file JPG ");
+//        } else if (tenFile2.endsWith(".EXE")) {
+//            System.out.println("File 2 la file EXE");
+//        }
+//
+//        String a1 = "Dinh Khac Hieu 20 12 2002 Khac";
+//        String a2 = "Khac";
+//        String a3 = "Nunu";
+//
+//        System.out.println("vi tri cua a2 trong a1 la " + a1.indexOf(a2));
+//        System.out.println("vi tri cua a3 trong a1 la " + a1.indexOf(a3));
+//
+//        System.out.println("vi tri cua a2 trong a1 la " + a1.indexOf(a2, 2));
+//
+//        System.out.println("vi tri cua a2 trong a1 tu r sang l la " + a1.lastIndexOf(a2));
+//
+//        String z1 = "Dinh Khac Hieu      ";
+//        String z2 = "Hoc lap trinh Java";
+//        String z3 = z1.concat(z2);
+//        System.out.println(z3);
+
+//        String z4 = z1.replace("Dinh", "Đinh");
+//        System.out.println(z4);
+
+//        String z5 = z1.toLowerCase();
+//        System.out.println(z5);
+
+//        String z6 = z2.toUpperCase();
+//        System.out.println(z6);
+
+//        String z7 = z1.trim();
+//        System.out.println(z7);
+
+//        String z8 = z1.substring(3, 7);
+//        System.out.println(z8);
+//
+//    }
+}
 
 
 
