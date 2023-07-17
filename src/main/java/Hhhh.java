@@ -453,6 +453,152 @@ public class Hhhh {
 //        System.out.println(z8);
 //
 //    }
+
+
+
+
+
+//    public static void main(String[] args) {
+//        int [] a = new int[] {1,3,2,4,7,6,8,9,5};
+//        int [] b = new int[10];
+//
+//        System.out.println("a ban dau" + Arrays.toString(a));
+//        Arrays.sort(a);
+//        System.out.println("a sau khi sap xep" + Arrays.toString(a));
+//
+//        System.out.println(Arrays.binarySearch(a,5));
+//        System.out.println(Arrays.binarySearch(a,10));
+//
+//        Arrays.fill(b,4);
+//        System.out.println("b ban dau" + Arrays.toString(b));
+//
+//
+//    }
+
+
+//    public static void main(String[] args) {
+//        String a = " dinh khac hieu, hieu. nunu";
+//        String[] b = a.split(" ");
+//        System.out.println(Arrays.toString(b));
+//        String[] c = a.split(",");
+//        System.out.println(Arrays.toString(c));
+//        String[] d = a.split("\\,|\\.");
+//        System.out.println(Arrays.toString(d));
+//
+//        String e = "Dinh Khac Hieu";
+//        String[] f = e.split(" ");
+//        System.out.println(Arrays.toString(f));
+//        System.out.println("ten = "+ f[f.length-1]);
+//    }
+
+
+//    public static void main(String[] args) {
+//        double taiKhoan = 1000;
+//        Scanner sc = new Scanner(System.in);
+//        Locale lc = new Locale("vi","VN");
+//        NumberFormat numf = NumberFormat.getInstance(lc);
+//        int luaChon = 0;
+//        do {
+//            System.out.println("------TAI_XIU------");
+//            System.out.println("Bấm phím 1 để tiếp tục ");
+//            System.out.println("Bấm phím bất kỳ để thoát ");
+//            luaChon = sc.nextInt();
+//            if (luaChon == 1) {
+//                System.out.println("Bắt đầu chơi! ");
+//                System.out.println(" Tài khoản của bạn là: " + numf.format(taiKhoan) + "Bạn muốn cược bao nhiêu? ");
+//                double datCuoc = 0;
+//                do {
+//                    System.out.println(" Đặt cược: 0 < tiền cược <" + taiKhoan);
+//                    datCuoc = sc.nextDouble();
+//                }
+//                while (datCuoc <= 0 || datCuoc > taiKhoan);
+//                int luaChonDatCuoc = 0;
+//                do {
+//                    System.out.println(" Chọn xỉu bấm phím 1 ");
+//                    System.out.println(" Chọn tài bấm phím 2");
+//                    luaChonDatCuoc = sc.nextInt();
+//                }
+//                while (luaChonDatCuoc != 1 && luaChonDatCuoc != 2);
+//
+//                Random xx1 = new Random();
+//                Random xx2 = new Random();
+//                Random xx3 = new Random();
+//
+//                int giatri1 = xx1.nextInt(5) + 1;
+//                int giatri2 = xx2.nextInt(5) + 1;
+//                int giatri3 = xx3.nextInt(5) + 1;
+//                int tong = giatri1 + giatri2 + giatri3;
+//                System.out.println("Kết quả = " + giatri1 + "+" + giatri2 + "+" + giatri3);
+//                if (tong == 3 || tong == 18) {
+//                    System.out.println("Tổng = " + tong + " Bạn thua. Nhà cái thắng. ");
+//                    taiKhoan -= datCuoc;
+//                    System.out.println("Tài khoản của bạn bây giờ là:  " + taiKhoan);
+//                } else if (tong >= 4 && tong <= 10) {
+//                    System.out.println(("Tổng = " + tong + " Xỉu"));
+//                    if (luaChonDatCuoc == 1) {
+//                        System.out.println("Bạn đã thắng cược. ");
+//                        taiKhoan += datCuoc;
+//                        System.out.println("Tài khoản bây giờ của bạn là: " + taiKhoan);
+//                    } else {
+//                        System.out.println("Bạn đã thua cược. ");
+//                        taiKhoan -= datCuoc;
+//                        System.out.println("Tài khoản bây giờ của bạn là: " + taiKhoan);
+//                    }
+//                } else {
+//                    System.out.println(("Tổng = " + tong + " Tài"));
+//                    if (luaChonDatCuoc == 2) {
+//                        System.out.println("Bạn đã thắng cược. ");
+//                        taiKhoan += datCuoc;
+//                        System.out.println("Tài khoản bây giờ của bạn là: " + taiKhoan);
+//                    } else {
+//                        System.out.println("Bạn đã thua cược. ");
+//                        taiKhoan -= datCuoc;
+//                        System.out.println("Tài khoản bây giờ của bạn là: " + taiKhoan);
+//                    }
+//                }
+//            }
+//
+//        }   while (luaChon == 1) ;
+//
+//
+//
+//
+//    }
+
+//@SuppressWarnings("deprecation")
+//    public static void main(String[] args) {
+//long t1 = System.currentTimeMillis();
+//for (int i = 0;i <10;i++){
+//    System.out.println("hieu");
+//}
+//long t2 = System.currentTimeMillis();
+//System.out.println("truoc khi chay for:" + t1);
+//    System.out.println("sau khi chay for:" + t2);
+//    System.out.println("thoi gian:" + (t2- t1)+"mls");
+//    System.out.println("thoi gian:" + ((t2-t1)/1000)+"s");
+//
+//    System.out.println("100 nam= " + TimeUnit.DAYS.toSeconds(1000*365)+ "s");
+//    System.out.println("24h =" +  TimeUnit.HOURS.toSeconds(24)+"s");
+//
+//    Date d = new Date (System.currentTimeMillis());
+//    System.out.println(d.getDate()+"/"+d.getMonth()+"/"+(d.getYear()+1900));
+//
+//    Calendar c = Calendar.getInstance();
+//    System.out.println(c.get(Calendar.DATE)+"-"+c.get(Calendar.MONTH)+"-"+c.get(Calendar.YEAR));
+//
+//    c.add(Calendar.HOUR,30);
+//    System.out.println(c.get(Calendar.DATE)+"-"+c.get(Calendar.MONTH)+"-"+c.get(Calendar.YEAR));
+//
+//    c.add(Calendar.DATE, 14);
+//    System.out.println(c.get(Calendar.DATE)+"-"+c.get(Calendar.MONTH)+"-"+c.get(Calendar.YEAR));
+//
+//    DateFormat df = new SimpleDateFormat();
+//    System.out.println(df.format(d));
+//    df = new SimpleDateFormat("dd-MM-yyyy  HH-mm-ss");
+//    System.out.println(df.format(d));
+//    }
+
+
 }
 
 
