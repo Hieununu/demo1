@@ -598,6 +598,126 @@ public class Hhhh {
 //    System.out.println(df.format(d));
 //    }
 
+//    public static void main() {
+//        int[][] a = {{1,2,3,4},{5,6,7}};
+//        System.out.print(a[1][2]);
+//        a[1][2] = 9;
+//        System.out.println(a[1][2]);
+//
+//
+//
+//        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+//        for (int i = 0; i < myNumbers.length; ++i) {
+//            for(int j = 0; j < myNumbers[i].length; ++j) {
+//                System.out.println(myNumbers[i][j]);
+//            }
+//        }
+//
+//    }
+//    static void myMethod() {
+//        System.out.println("Dinh Khac Hieu");}
+//    static void myMethod1(){
+//        System.out.println("Dh10C6");
+//
+//    }
+//    public static void main(String[] args){
+//        myMethod();
+//        myMethod1();
+//        myMethod();
+//
+//    }
+//    static void myMethod(String fname,int age){
+//        System.out.println(fname + " Dh10C6 " + age + " tuoi");
+//    }
+//    public static void main(String[] args) {
+//        myMethod("Dinh Khac Hieu",21);
+//        myMethod("hieununu",21);
+//    }
+
+
+//     static int myMethod(int x,int y){
+//        return x*x + 6*x + y;
+//}
+//    public static void main(String[] args) {
+//    int a = myMethod(5,45);
+//        System.out.println(a);
+//    }
+
+
+    
+//    static void tuoi(int age) {
+//        if (age < 18) {
+//            System.out.println("khong duoc xuat khau lao dong ");
+//        } else {
+//            System.out.println("duoc xuat khau lao dong");
+//        }
+//    }
+//       public static void main(String[] args){
+//            tuoi(20);
+//        }
+
+//
+//        static int myMethod(int x, int y) {
+//            return x + y;
+//        }
+//
+//        static double myMethod(double x, double y) {
+//            return x + y;
+//        }
+//
+//        public static void main(String[] args) {
+//            int myNum1 = myMethod(8, 5);
+//            double myNum2 = myMethod(4.3, 6.26);
+//            System.out.println("int: " + myNum1);
+//            System.out.println("double: " + myNum2);
+//        }
+
+//
+//        public static void main(String[] args) {
+//            int result = sum(10);
+//            System.out.println(result);
+//        }
+//        public static int sum(int k){
+//                if (k > 0) {
+//                    return k + sum(k - 1);
+//                } else {
+//                    return 0;
+//                }
+//            }
+
+
+//    public static void main(String[] args) {
+//        int result = sum(5,10);
+//        System.out.println(result);
+//    }
+//    public static int sum ( int a , int b){
+//        if (b>a){
+//            return b + sum(a , b-1);
+//        }
+//        else {
+//            return b;
+//        }
+//    }
+
+//int x = 5;
+//    public static void main(String[] args) {
+//    Main a = new Main();
+//    Main b = new Main();
+//    b.x = 50;
+//    System.out.println(a.x);
+//    System.out.println(b.x);
+//    }
+
+
+//    String name1 = "Hieu";
+//    String name2 = "Nunu";
+//    int age = 21;
+//
+//    public static void main(String[] args) {
+//        Main a = new Main();
+//        System.out.println("Name: "+ a.name1+" "+ a.name2 );
+//        System.out.println("Age: " + a.age);
+//    }
 
 }
 
