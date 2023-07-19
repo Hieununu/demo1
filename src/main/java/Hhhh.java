@@ -644,7 +644,7 @@ public class Hhhh {
 //    }
 
 
-    
+
 //    static void tuoi(int age) {
 //        if (age < 18) {
 //            System.out.println("khong duoc xuat khau lao dong ");
@@ -718,6 +718,99 @@ public class Hhhh {
 //        System.out.println("Name: "+ a.name1+" "+ a.name2 );
 //        System.out.println("Age: " + a.age);
 //    }
+
+
+
+//    public static void main(String[] args) {
+//        int[] a;
+//        int n;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("nhap n: ");
+//        n = sc.nextInt();
+//        a = new int[n];
+//        nhap(a,n);
+//        xuat(a,n);
+//
+//        System.out.println("Min: " + min(a,n));
+//        System.out.println("Max: " + max(a,n));
+//
+//        System.out.print("Cac so nguyen to la: ");
+//        for (int i=0;i<n;i++) {
+//            if (check(a[i])  )
+//                System.out.print(a[i] + " ");
+//        }
+//        System.out.println(" ");
+//        sapxep(a,n);
+//        xuat(a,n);
+//    }
+//    public static void nhap(int a[],int n){
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Moi nhap vao mang: ");
+//        for (int i=0;i<n;i++)
+//            a[i] = scanner.nextInt();
+//
+//    }
+//    public static void xuat(int a[],int n){
+//        for (int i=0;i<n;i++)
+//            System.out.print(a[i] + " ");
+//        System.out.println(" ");
+//    }
+//    public static int min(int a[],int n){
+//        int min = a[0];
+//        for (int i=1;i<n;i++){
+//            if (a[i] < min)
+//                min = a[i];
+//        }
+//        return min;
+//    }
+//    public static int max(int a[],int n){
+//        int max = a[0];
+//        for (int i=1;i<n;i++){
+//            if (a[i] > max)
+//                max = a[i];
+//        }
+//        return max;
+//    }
+//    public static boolean check(int n){
+//        if(n<=1) return false;
+//        for (int i = 2;i<= Math.sqrt(n); i++)
+//            if(n%i==0) return false;
+//
+//        return true;
+//    }
+//
+//    public static void sapxep(int a[],int n){
+//     Arrays.sort(a);
+//    }
+
+
+//    public void tocDoToiDa(){
+//        System.out.println(" Toc do toi da cua 1 chiec oto la : ");
+//    }
+//    public void speed(int maxSpeed){
+//        System.out.println("maxSpeed = "+maxSpeed + " km/h");
+//    }
+//
+//    public static void main(String[] args) {
+//        Main myCar = new Main();
+//        myCar.tocDoToiDa();
+//        myCar.speed(250);
+//    }
+
+
+
+//    protected String brand = " Ford";
+//public void honk() {
+//    System.out.println("Tuut, tuut");
+//}
+//    private String modelName = "Mustang";
+//
+//    public static void main(String[] args) {
+//        Main myCar = new Main();
+//        myCar.honk();
+//        System.out.println(myCar.brand + " " + myCar.modelName);
+//    }
+
 
 }
 
