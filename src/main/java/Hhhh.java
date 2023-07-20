@@ -812,6 +812,209 @@ public class Hhhh {
 //    }
 
 
+    //    enum Name {
+//        Hieu,
+//        Hoang,
+//        Dung,
+//        Duong
+//    }
+
+//    public static void main(String[] args) {
+//        Name myVar = Name.Hieu;
+//        switch(myVar){
+//            case Dung:
+//                System.out.println("Dung");
+//                break;
+//            case Hieu:
+//                System.out.println("Hieu");
+//                break;
+//            case Hoang:
+//                System.out.println("Hoang");
+//                break;
+//            case Duong:
+//                System.out.println("Duong");
+//                break;
+//        }
+//        for (Name name:Name.values()){
+//            System.out.println(name);
+//        }
+//    }
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("nhap ten cua ban : ");
+//        String name = sc.nextLine();
+//        System.out.println("ten cua ban la : "+ name);
+//        System.out.println(name.toLowerCase());
+//        System.out.println(name.toUpperCase());
+//        System.out.println(name.charAt(3));
+//        System.out.println(name.length());
+//
+//    }
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int m = sc.nextInt();
+//        int[][] array = new int[n][m];
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < m; j++) {
+//                array[i][j] = sc.nextInt();
+//            }
+//        }
+//        int tong = 0;
+//        for(int i = 0;i < n;i++){
+//            for(int j = 0 ;j<m;j++){
+//                if (array[i][j] % 5 == 0){
+//                    tong += array[i][j];
+//                }
+//            }
+//        }
+//        System.out.println("tong cac so cos trong mang chia het cho 5 la: " + tong);
+//    }
+
+
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int m = sc.nextInt();
+//        int [][] arr = new int[n][m];
+//
+//        for(int i = 0; i<n ; i++) {
+//            for (int j = 0; j < m; j++) {
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//
+//                for(int i = 0; i<n ; i++){
+//                    for(int j = 0; j<m; j++){
+//                System.out.println("arr["+i+"]"+"["+j+"]" + arr[i][j]);
+//            }
+//
+//        }
+//        int tong = 0;
+//        for(int i = 0; i<n ; i++) {
+//            for (int j = 0; j < m; j++) {
+//                tong += arr[i][j];
+//            }
+//        }
+//        System.out.println("tong cac phan tu trong mang la: "+tong);
+//
+//    }
+
+
+//    public static void main(String[] args) {
+//        int m;
+//        int n;
+//        Scanner sc = new Scanner(System.in);
+//
+//        do {
+//            System.out.println("Nhập vào số dòng của ma trận:");
+//            m = sc.nextInt();
+//            System.out.println("Nhập vào số cột của ma trận:");
+//            n = sc.nextInt();
+//        } while (m < 1 || n < 1);
+//
+//        int A[][] = new int[m][n];
+//        int B[][] = new int[m][n];
+//
+//        // ma trận tổng C
+//        int C[][] = new int [m][n];
+//
+//        System.out.println("Nhập các phần tử cho ma trận A:");
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print("A[" + i + "," + j + "] = ");
+//                A[i][j] = sc.nextInt();
+//            }
+//        }
+//        System.out.println("Nhập các phần tử cho ma trận B:");
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print("B[" + i + "," + j + "] = ");
+//                B[i][j] = sc.nextInt();
+//            }
+//        }
+//
+//        System.out.println("Ma trận A:");
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print(A[i][j] + "\t");
+//            }
+//            System.out.println("\n");
+//        }
+//
+//        System.out.println("Ma trận B:");
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print(B[i][j] + "\t");
+//            }
+//            System.out.println("\n");
+//        }
+//
+//
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                C[i][j] = A[i][j] + B[i][j];
+//            }
+//        }
+//        System.out.println("Ma trận tổng C:");
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print(C[i][j] + "\t");
+//            }
+//            System.out.println("\n");
+//        }
+//    }
+
+
+//    public static void main(String[] args) {
+//        int n;
+//        int kt = 0;
+//        Scanner scanner = new Scanner(System.in);
+//
+//        do {
+//            System.out.println("Nhập vào số bậc của ma trận: ");
+//            n = scanner.nextInt();
+//        } while (n < 1);
+//
+//        int[][] A = new int[n][n];
+//
+//        System.out.println("Nhập các phần tử cho ma trận A:");
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print("A[" + i + "," + j + "] = ");
+//                A[i][j] = scanner.nextInt();
+//            }
+//        }
+//
+//        System.out.println("Ma trận A vừa nhập:");
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                System.out.print(A[i][j] + "\t");
+//            }
+//            System.out.println("\n");
+//        }
+//
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < i; j++) {
+//                if (A[i][j] == A[j][i]) {
+//                    kt = 1;
+//                } else {
+//                    kt = 0;
+//                }
+//            }
+//        }
+//        if (kt == 1) {
+//            System.out.println("Ma trận vừa nhập là ma trận đối xứng");
+//        } else {
+//            System.out.println("Ma trận vừa nhập là ma trận không đối xứng");
+//        }
+//    }
+
+
 }
 
 
